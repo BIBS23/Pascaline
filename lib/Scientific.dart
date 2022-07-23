@@ -100,6 +100,7 @@ class _ScientificState extends State<Scientific> {
                           OnTapped: () {
                             setState(() {
                               Input = "";
+                              Ans = "";
                             });
                           },
                           BtTxtColor: Colors.white,
@@ -121,7 +122,9 @@ class _ScientificState extends State<Scientific> {
                         BtColor: Colors.deepPurple,
                         BtTxtColor: Colors.white,
                         OnTapped: () {
-                          setState(() {});
+                          setState(() {
+                            EqualPressed();
+                          });
                         },
                       );
                     } else {
