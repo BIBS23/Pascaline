@@ -188,7 +188,7 @@ class IconScifi extends StatelessWidget {
                   child: TextButton(
                       onPressed: () {
                         Navigator.push(context,
-                            MaterialPageRoute(builder: ((context) => Basic())));
+                            MaterialPageRoute(builder: ((context) => Scientific())));
                       },
                       child: Text(
                         "Basic",
